@@ -1,0 +1,16 @@
+# blueprint version
+version: 1.0.0
+# package.json configuration
+npm:
+    # note: the project folder will be named this, too -- a sibling of this directory.
+    # caution: if this sibling directory already exists, it will be clobbered.
+    name:
+    version:
+    gulp:
+    grunt:
+    dependencies:
+        global:
+        dev:
+        peer:
+        prod:
+structure:
